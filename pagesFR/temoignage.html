@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <link href="../images/logo3.png" rel="icon" type="image/png">
+    <title>Portail National IUT Informatique</title>
+    <script src="test.js"></script>
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="topbtn" title="Retour en Haut">↑</button>
+
+    <img id="logo" src="../images/logo.png" alt="logoIUT" usemap="#logo">
+    <map name="logo">
+        <area shape="rect" alt="logo" coords="0,0,435,133" href="../pagesFR/accueil.html">
+
+    </map>
+
+    <div id="head">
+        <div id="searchbar">
+            <form action="" class="formulaire">
+                <input class="champ" type="text" placeholder="Rechercher : " />
+                <input class="bouton" type="button" value="🔍" />
+            </form>
+        </div>
+    </div>
+    <div id="myTopnav" class="topnav">
+        <a href="accueil.html">Accueil</a>
+        <a href="presentation.html">Présentation</a>
+        <div class="subnav">
+            <button class="subnavbtn">Formation<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="IUT.html">IUT</a>
+                <a href="departementInfo.html">Département Infos</a>
+                <a href="programme.html">Programme</a>
+            </div>
+        </div>
+        <a href="carteDutInfos.html">Carte des DUT Infos</a>
+        <div class="subnav">
+            <button class="subnavbtn">Après l'IUT<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="debouches.html">Débouchés</a>
+                <a href="poursuiteEtudes.html">Poursuite d'études</a>
+            </div>
+        </div>
+        <a href="temoignage.html" class="active">Témoignages</a>
+        <a href="revuPresse.html">Revue de Presse</a>
+        <a href="liens.html">Liens</a>
+        <a href="partenariat.html">Partenariats</a>
+        <a href="entreprises.html">Entreprises</a>
+        <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Accès
+            Enseignant</a>
+        <a href="javascript:void(0);" class="icon" onclick="NavB()">
+            <i class="fa fa-bars">≡</i>
+        </a>
+    </div>
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        document.getElementById("myBtn").onclick = function () { myFunction() };
+    </script>
+
+    <div id="texte">
+
+        <br>
+
+        <h2> Témoignage de Damien Lefebvre</h2>
+
+        <img id="damien" src="../images/damien.gif">
+
+        <br>
+        <br> Son bac S en poche, Damien Lefebvre a passé quelques mois sur les bancs de la fac, avant de se réorienter,
+        en quête
+        d'une formation plus encadrée. Son expérience universitaire lui ayant révélé un goût prononcé pour
+        l'informatique,
+        il décide de candidater à l'IUT de Villetaneuse afin de préparer un DUT Informatique option Génie Logiciel en
+        2002.
+        <br>
+        <br> L'encadrement proposé par des professeurs passionnés, l'acquisition de méthodes de travail rigoureuses
+        l'ont incité
+        à compléter sa formation via la Licence Professionnelle Systèmes Informatique et Logiciel option Génie
+        Logiciel,
+        proposée par le même IUT.
+        <br>
+        <br> « Les connaissances et compétences développées par trois années d'étude de l'algorithmique, des bases de
+        données,
+        mais aussi des aspects comptables du monde de l'Entreprise, ont été la clef qui m'a permis d'être recruté par
+        une
+        grande société de service informatique française, après 4 mois de stage de fin d'année.»
+        <br>
+        <br> Depuis maintenant un an et demi le jeune Analyste Programmeur met ses compétences au service de grands
+        clients,
+        parmi lesquels des établissements bancaires renommés, et souhaite à l'avenir s'orienter vers le « Consulting ».
+    </div>
+    <footer>
+        <div id="Report">
+            <br>
+            <p>Pour signaler un problème ou faire des remarques et suggestions sur ce site : <a
+                    href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

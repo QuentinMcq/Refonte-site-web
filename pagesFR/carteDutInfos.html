@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <link href="icone-ordinateur.png" rel="icon" type="image/png">
+    <title>Portail National IUT Informatique</title>
+    <script src="test.js"></script>
+    <script src="../../js/ios-orientationchange-fix.min.js"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="topbtn" title="Retour en Haut">↑</button>
+
+    <img id="logo" src="../images/logo.png" alt="logoIUT" usemap="#logo">
+    <map name="logo">
+        <area shape="rect" alt="logo" coords="0,0,435,133" href="../pagesFR/accueil.html">
+
+    </map>
+
+    <div id="head">
+        <div id="searchbar">
+            <form action="" class="formulaire">
+                <input class="champ" type="text" placeholder="Rechercher : " />
+                <input class="bouton" type="button" value="🔍" />
+            </form>
+        </div>
+    </div>
+    <div id="myTopnav" class="topnav">
+        <a href="accueil.html">Accueil</a>
+        <a href="presentation.html">Présentation</a>
+        <div class="subnav">
+            <button class="subnavbtn">Formation<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="IUT.html">IUT</a>
+                <a href="departementInfo.html">Département Infos</a>
+                <a href="programme.html">Programme</a>
+            </div>
+        </div>
+        <a href="carteDutInfos.html" class="active">Carte des DUT Infos</a>
+        <div class="subnav">
+            <button class="subnavbtn">Après l'IUT<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="debouches.html">Débouchés</a>
+                <a href="poursuiteEtudes.html">Poursuite d'études</a>
+            </div>
+        </div>
+        <a href="temoignage.html">Témoignages</a>
+        <a href="revuPresse.html">Revue de Presse</a>
+        <a href="liens.html">Liens</a>
+        <a href="partenariat.html">Partenariats</a>
+        <a href="entreprises.html">Entreprises</a>
+        <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Accès
+            Enseignant</a>
+        <a href="javascript:void(0);" class="icon" onclick="NavB()">
+            <i class="fa fa-bars">≡</i>
+        </a>
+    </div>
+
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        document.getElementById("myBtn").onclick = function () { myFunction() };
+    </script>
+
+
+    <div id="carte">
+        <br>
+        <h1>Carte de france des DUT informatique</h1>
+        <img src="../images/carte.jpg" alt="CarteFrance" usemap="#carteIUT" class="map">
+        <map name="carteIUT">
+            <area shape="circle" title="IUT Littoral Côte D'opale" alt="Calais" coords='181,51,15'
+                href="http://www.iut.univ-littoral.fr/">
+            <area shape="circle" title="Lille IUT" alt="Lille" coords='214,72,5'
+                href="http://www.iut-a.univ-lille.fr/dpt-info/">
+            <area shape="circle" title="IUT Lens" alt="Lens" coords='190,85,5'
+                href="http://www.iut-lens.univ-artois.fr/">
+            <area shape="circle" title="IUT du Havre" alt="Le Havre" coords='150,94,5'
+                href="https://www-iut.univ-lehavre.fr/index.php?option=com_content&view=category&layout=blog&id=102&Itemid=33&lang=fr">
+            <area shape="circle" title="IUT Valenciennes-Cambrai-Maubeuge" alt="Maubeuge" coords='227,93,5'
+                href="https://www.uphf.fr/IUT/liut-de-valenciennes-en-un-clin-doeil">
+            <area shape="circle" title="IUT Amiens" alt="Amiens" coords='184,103,5' href="http://info.iut-amiens.fr/">
+            <area shape="circle" title="IUT Reims Chalons Charleville" alt="Reims" coords='235,114,5'
+                href="https://iut-info.univ-reims.fr/">
+            <area shape="circle" title="Université de Caen Basse-Normandie" alt="Caen" coords='132,105,5'
+                href="https://www.iutc3.unicaen.fr/info-new/accueil.html">
+            <area shape="circle" title="Université de Lorraine|IUT Metz" alt="Metz" coords='259,123,5'
+                href="http://iut-metz.univ-lorraine.fr/departement-info">
+            <area shape="circle" title="IUT Lannion" alt="Lannion" coords='47,107,5' href="http://www.iut-lannion.fr/">
+            <area shape="circle" title="Université de Lorraine|IUTSt Dié" alt="St Dié" coords='276,133,5'
+                href="http://iutsd.univ-lorraine.fr/">
+
+            <area shape="circle" title="Ile-De_France" alt="Ile-De_France" coords='186,126,5' href="carteParis.png">
+
+            <area shape="circle" title=" IUT Laval Le Mans Université" alt=" Laval" coords='108,140,5'
+                href="http://www.iut-laval.univ-lemans.fr/fr/info-informatique-et-programmation/dut-informatique.html">
+            <area shape="circle" title="IUT Nancy Charlemagne " alt="Nancy" coords='257,144,5'
+                href="https://iut-charlemagne.univ-lorraine.fr/">
+            <area shape="circle" title=" IUT Robert Schuman Université de Strasbourg" alt="Strasbourg"
+                coords='281,152,5' href="http://iutrs.unistra.fr/">
+            <area shape="circle" title="Université Orléans" alt="Oréans" coords='169,158,5'
+                href="http://www.univ-orleans.fr/iut-orleans/informatique/?page=m2_formation.htm/">
+            <area shape="circle" title="Université de Franche-Compté IUT Belfort-Montbéliard" alt="Belfort"
+                coords='254,173,5' href="http://www.iut-bm.univ-fcomte.fr/public_website/iut/d-u-t/informatique">
+            <area shape="circle" title="IUT Dijon-Auxerre" alt="Dijon" coords='213,189,5'
+                href="http://iutdijon.u-bourgogne.fr/www/">
+            <area shape="circle" title="IUT Nantes" alt="Nantes" coords='82,173,5'
+                href="https://iutnantes.univ-nantes.fr/">
+            <area shape="circle" title="IUT Vannes" alt="Vannes" coords='64,167,5'
+                href="http://www.iutvannes.fr/Formations/INFO/info.asp">
+            <area shape="circle" title="IUT de La Rochelle" alt="La Rochelle" coords='80,203,5'
+                href="http://www.iut-larochelle.fr/">
+            <area shape="circle" title="IUT du Limousin" alt="Limoges" coords='133,220,5'
+                href="http://www.iut.unilim.fr/">
+            <area shape="circle" title=" IUT Clermont-Ferrand" alt="Clermont-Ferrand" coords='182,237,5'
+                href="https://www.iut-clermont.fr/?option=com_content&%2520task=section&id=7&Itemid=36">
+
+            <area shape="circle" title=" IUT LYON 1" alt="Bourg en Bresse" coords='228,214,5'
+                href="https://iut.univ-lyon1.fr/formation/offre-de-formations/informatique-bourg-en-bresse-/informatique-bourg-en-bresse--790899.kjsp">
+            <area shape="circle" title="IUT Annecy Université Savoie Mont Blanc" alt="Annecy" coords='274,227,5'
+                href="https://www.iut-acy.univ-smb.fr/formation/bac+2/dut/info-informatique/">
+            <area shape="circle" title="Lyon" coords='234,233,5' alt="Lyon" href="http://www.iut.univ-littoral.fr/">
+            <area shape="circle" title=" IUT Midi Pyrénées Rodez" alt="Le Puy" coords='193,250,5'
+                href="https://www.iut-rodez.fr/">
+            <area shape="circle" title="Bordeaux" alt="Bordeaux" coords='93,248,5' href="http://www.iut.u-bordeaux.fr/">
+            <area shape="circle" title="IUT 2 Université Grenoble Alpes" alt="Grenoble" coords='251,246,5'
+                href="https://iut2.univ-grenoble-alpes.fr/">
+            <area shape="circle" title=" IUT Midi Pyrénées Blagnac" alt="Blagnac" coords='127,270,5'
+                href="https://www.iut-blagnac.fr/fr/">
+            <area shape="circle" title="IUT Midi Pyrénées Toulouse" alt="Toulouse" coords='133,281,5'
+                href="http://iut-informatique.ups-tlse.fr/">
+            <area shape="circle" title="IUT Bayonne Pays Basque" alt="Bayonne" coords='64,283,5'
+                href="https://www.iutbayonne.univ-pau.fr/">
+            <area shape="circle" title="IUT Midi Pyrénées Rodez" alt="Rodez" coords='171,264,5'
+                href="https://www.iut-rodez.fr/">
+            <area shape="circle" title="Université Grenoble Alpes | IUT Valence" alt="Valence" coords='236,261,5'
+                href="https://www.iut-valence.fr/">
+            <area shape="circle" title="IUT Aix- Marseille Université" alt="Aix en Provence" coords='245,286,5'
+                href="https://iut.univ-amu.fr/sites/site-daix-provence">
+            <area shape="circle" title="Iut Nice Côte D'azur" alt="Nice" coords='265,300,5'
+                href="http://unice.fr/iut/presentation/accueil">
+            <area shape="circle" title="Arles" alt="Arles" coords='240,311,5'
+                href="https://allsh.univ-amu.fr/?menu=smenu4_1">
+            <area shape="circle" title="IUT Montpellier-Sete" alt="Montpellier" coords='195,296,5'
+                href="http://iutdepinfo.iutmontp.univ-montp2.fr/index.php/formations/dut-informatique">
+        </map>
+
+        <div id="partie">
+            <h2>Ile de France:</h2>
+
+
+        </div>
+
+        <div id="Paris">
+            <img src="../images/carteParis.jpg" alt="CarteParis" usemap="#carteIUTParis" class="map">
+            <map name="carteIUTParis">
+                <area shape="circle" title="IUT Villetaneuse Université Paris 13" alt="Ile-De_France-Villetaneuse"
+                    coords='136,107,5' href="https://iutv.univ-paris13.fr/dut-informatique/">
+                <area shape="circle" title="IUT Montreuil Université Paris 8" alt="Ile-De_France_Montreuil"
+                    coords='154,125,5' href="http://www.iut.univ-paris8.fr/">
+                <area shape="circle" title="IUT de Paris" alt="Ile-De_France-Paris5" coords='123,139,5'
+                    href="http://www.iut.univ-paris5.fr/">
+                <area shape="circle" title="Université Paris-Est Marne-La-Vallée" alt="Ile-De_France-Marne-La-Vallée"
+                    coords='216,137,5' href="http://iut.u-pem.fr/">
+                <area shape="circle" title="IUT Vélizy" alt="Ile-De_France-Vélizy" coords='90,162,5'
+                    href="http://info.iut-velizy.uvsq.fr/">
+                <area shape="circle" title="IUT D'Orsay" alt="Ile-De_France-Orsay" coords='121,186,5'
+                    href="http://www.iut-orsay.u-psud.fr/fr/index.html">
+                <area shape="circle" title="UPEC" alt="Ile-De_France-Fontainebleau" coords='193,220,5'
+                    href="http://www.u-pec.fr/universite-paris-est-creteil-805685.kjsp">
+
+            </map>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="jquery.rwdImageMaps.min.js"></script>
+        <script>
+            $(document).ready(function (e) {
+                $('img[usemap]').rwdImageMaps();
+
+                $('area').on('click', function () {
+                    alert($(this).attr('alt') + ' clicked');
+                });
+            });
+        </script>
+    </div>
+    <footer>
+        <div id="Report">
+            <br>
+            <p>Pour signaler un problème ou faire des remarques et suggestions sur ce site : <a
+                    href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

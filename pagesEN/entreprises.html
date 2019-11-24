@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <link href="icone-ordinateur.png" rel="icon" type="image/png">
+    <title>IUT Informatique National Portal</title>
+    <script src="test.js"></script>
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="topbtn" title="Retour en Haut">↑</button>
+
+    <img id="logo" src="../images/logo.png" alt="logoIUT" usemap="#logo">
+    <map name="logo">
+        <area shape="rect"  alt="logo" coords="0,0,435,133" href="../pagesEN/accueil.html">
+    </map>
+
+    <div id="head">
+        <div id="searchbar">
+            <form action="" class="formulaire">
+                <input class="champ" type="text" placeholder="Rechercher : " />
+                <input class="bouton" type="button" value="🔍" />
+            </form>
+        </div>
+    </div>
+    <div id="myTopnav" class="topnav">
+        <a href="accueil.html">Home</a>
+        <a href="presentation.html">Presentation</a>
+        <div class="subnav">
+            <button class="subnavbtn">Training<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="IUT.html">IUT</a>
+                <a href="departementInfo.html">Infos Department</a>
+                <a href="programme.html">Program</a>
+            </div>
+        </div>
+        <a href="carteDutInfos.html">Map of DUT Info</a>
+        <div class="subnav">
+            <button class="subnavbtn">After IUT<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="debouches.html">Opportunities</a>
+                <a href="poursuiteEtudes.html">Study pursuits</a>
+            </div>
+        </div>
+        <a href="temoignage.html">Testimonials</a>
+        <a href="revuPresse.html">Press reviews</a>
+        <a href="liens.html">Links</a>
+        <a href="partenariat.html">Partnerships</a>
+        <a href="entreprises.html">Companies</a>
+        <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Teacher
+            access</a>
+        <a href="javascript:void(0);" class="icon" onclick="NavB()">
+            <i class="fa fa-bars">≡</i>
+        </a>
+    </div>
+
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        document.getElementById("myBtn").onclick = function () { myFunction() };
+    </script>
+
+
+    <div id="texte">
+        <br>
+        <h2> Companies Page </h2>
+        <br> Welcome to the business page.
+        <br>
+        <br> You will find on this site information about the DUT Informatique. In particular, the
+        <a href="presentation.html"> presentation page of the DUT Informatique </a> will inform you about the program
+        national pedagogical program.
+        <br>
+        <a href="carteDutInfos.html"> The map of France DUT Informatique </a> will allow you to find a DUT
+        close to your business and get in touch with <b> internship or apprenticeship opportunities. </b>
+        <br>
+        You can also send us <b> job postings </b> to the following address; they can be
+        redirected to all of our students (current and former) in France:
+        <a href="webmaster@iut-informatique.fr"> webmaster@iut-informatique.fr </a>.
+    </div>
+
+    <footer>
+        <div id="Report">
+            <br>
+            <p>To report a problem or make comments and suggestions on this site: <a
+                    href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

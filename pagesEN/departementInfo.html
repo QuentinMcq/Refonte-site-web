@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <link href="icone-ordinateur.png" rel="icon" type="image/png">
+    <title>IUT Informatique National Portal</title>
+    <script src="test.js"></script>
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="topbtn" title="Retour en Haut">↑</button>
+
+    <img id="logo" src="../images/logo.png" alt="logoIUT" usemap="#logo">
+    <map name="logo">
+        <area shape="rect" alt="logo" coords="0,0,435,133" href="../pagesEN/accueil.html">
+    </map>
+
+    <div id="head">
+        <div id="searchbar">
+            <form action="" class="formulaire">
+                <input class="champ" type="text" placeholder="Rechercher : " />
+                <input class="bouton" type="button" value="🔍" />
+            </form>
+        </div>
+    </div>
+    <div id="myTopnav" class="topnav">
+        <a href="accueil.html">Home</a>
+        <a href="presentation.html">Presentation</a>
+        <div class="subnav">
+            <button class="subnavbtn">Training<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="IUT.html">IUT</a>
+                <a href="departementInfo.html" class="active">Infos Department</a>
+                <a href="programme.html">Program</a>
+            </div>
+        </div>
+        <a href="carteDutInfos.html">Map of DUT Info</a>
+        <div class="subnav">
+            <button class="subnavbtn">After IUT<i class="fa-fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="debouches.html">Opportunities</a>
+                <a href="poursuiteEtudes.html">Study pursuits</a>
+            </div>
+        </div>
+        <a href="temoignage.html">Testimonials</a>
+        <a href="revuPresse.html">Press reviews</a>
+        <a href="liens.html">Links</a>
+        <a href="partenariat.html">Partnerships</a>
+        <a href="entreprises.html">Companies</a>
+        <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Teacher
+            access</a>
+        <a href="javascript:void(0);" class="icon" onclick="NavB()">
+            <i class="fa fa-bars">≡</i>
+        </a>
+    </div>
+
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        document.getElementById("myBtn").onclick = function () { myFunction() };
+    </script>
+
+    <div id="texte">
+        <br>
+        <h2> Departments at IUT </h2>
+        <br>
+        <img id="damien" src="../images/iutinfo.gif">
+        <div> The teaching of computer science at the IUT makes a large part of the professional dimension while
+            retaining
+            fundamental components; the student thus acquires know-how but also knowledge,
+            of the
+            basic concepts and methods of work that he will be able to put to use in
+            professional.
+            <br>
+            <br>
+            <b> The DUT, university and professional diploma (level L2 of the LMD scheme, 120 European credits): </b>
+            <br>
+            <br>
+            The holders of the DUT in computer science are senior technicians, able to participate in the
+            design,
+            the realization and implementation of computer systems. They can, however, if they wish
+            continue
+            their studies at the end of this degree.
+            <br>
+            <br>
+            <p> <b> The Professional License "Computer and Software Systems" (SIL), L3 degree in the
+                    LMD scheme (Bachelor's degree, 180 European credits): <a href="http://www.iut-informatique.fr/LicencesProfessionnelles/">
+                        these
+                        pages present the professional licenses </a> proposed in the departments
+                    iut computer.
+                </b>
+            </p>
+            The holders of the SIL license are specialists capable of participating in a project of
+            software development
+            and, ultimately, take full responsibility for it.
+            <br>
+            <br>
+            <b> Validation of achievements: </b>
+            <br>
+            <br>
+            It is also possible to have your experience (professional or otherwise) recognized in order to obtain
+            A degree,
+            a title or certificate of professional qualification. You can visit the government website
+            concerning
+            <a id="vae" href="https://travail-emploi.gouv.fr/professional-formation/evolve-professionally/vae">
+                validation
+                acquired experience (VAE). </a>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <footer>
+        <div id="Report">
+            <br>
+            <p>To report a problem or make comments and suggestions on this site: <a
+                    href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
