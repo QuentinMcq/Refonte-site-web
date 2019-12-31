@@ -1,2 +1,7 @@
 # Refonte-site-web
-Par groupe de 3, nous avons dû recréer le site web de l'IUT en y ajoutant de nouveaux éléments pour l'améliorer. Ce fut une expérience enrichissante tant sur le travail d'équipe que sur l'apprentissage de nouveaux mécanismes (utilisation de Javascript et Boostrap pour la 1ère fois).
+
+Projet dans lequel nous avons dû améliorer le site web de l'IUT (changement du design et ajout d'éléments). Nous pouvions utiliser les outils que l'on voulait.
+
+Projet scolaire réalisé en groupe de trois personnes de Novembre à Décembre 2018.
+
+_Technologies utilisées_ : **HTML, CSS, Bootstrap** et **Javascript**.
