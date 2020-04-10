@@ -4,4 +4,4 @@ Projet dans lequel nous devions améliorer le site web de l'IUT (changement du d
 
 Projet scolaire réalisé en groupe de trois personnes de Novembre à Décembre 2018.
 
-_Technologies utilisées_ : **HTML/CSS, **JavaScript**.
+_Technologies utilisées_ : **HTML/CSS, JavaScript**.
