@@ -3,139 +3,139 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
-    <link href="icone-ordinateur.png" rel="icon" type="image/png">
+    <link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <title>Portail National IUT Informatique</title>
-    <script src="test.js"></script>
-
 </head>
 
 <body>
-    <button onclick="topFunction()" id="topbtn" title="Retour en Haut">↑</button>
+<button id="topbtn" onclick="topFunction()" title="Retour en Haut">↑</button>
 
+<img alt="logoIUT" id="logo" src="../images/logo.png" usemap="#logo">
 
-    <img id="logo" src="../images/logo.png" alt="logoIUT" usemap="#logo">
-    <map name="logo">
-        <area shape="rect" alt="logo" coords="0,0,435,133" href="../pagesFR/accueil.html">
+<map name="logoIUT">
+    <area alt="logo" coords="0,0,435,133" href="../pagesFR/accueil.html" shape="rect">
+</map>
 
-    </map>
+<div id="head">
+    <div id="searchbar">
+        <form action="" class="formulaire">
+            <label>
+                <input class="champ" placeholder="Rechercher" type="text"/>
+            </label>
+            <label>
+                <input class="bouton" type="button" value="🔍"/>
+            </label>
+        </form>
+    </div>
+</div>
+<div class="topnav" id="myTopnav">
+    <a href="accueil.html">Accueil</a>
+    <a href="presentation.html">Présentation</a>
+    <div class="subnav">
+        <button class="subnavbtn">Formation<i class="fa-fa-caret-down"></i></button>
 
-
-    <div id="head">
-        <div id="searchbar">
-            <form action="" class="formulaire">
-                <input class="champ" type="text" placeholder="Rechercher : " />
-                <input class="bouton" type="button" value="🔍" />
-            </form>
+        <div class="subnav-content">
+            <a class="active" href="IUT.html">IUT</a>
+            <a href="departementInfo.html">Département Infos</a>
+            <a href="programme.html">Programme</a>
         </div>
     </div>
-    <div id="myTopnav" class="topnav">
-        <a href="accueil.html">Accueil</a>
-        <a href="presentation.html">Présentation</a>
-        <div class="subnav">
-            <button class="subnavbtn">Formation<i class="fa-fa-caret-down"></i></button>
 
-            <div class="subnav-content">
-                <a href="IUT.html" class="active">IUT</a>
-                <a href="departementInfo.html">Département Infos</a>
-                <a href="programme.html">Programme</a>
-            </div>
+    <a href="carteDutInfos.html">Carte des DUT Infos</a>
+    <div class="subnav">
+        <button class="subnavbtn">Après l'IUT<i class="fa-fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="debouches.html">Débouchés</a>
+            <a href="poursuiteEtudes.html">Poursuite d'études</a>
         </div>
+    </div>
+    <a href="temoignage.html">Témoignages</a>
+    <a href="revuPresse.html">Revue de Presse</a>
+    <a href="liens.html">Liens</a>
+    <a href="partenariat.html">Partenariats</a>
+    <a href="entreprises.html">Entreprises</a>
+    <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Accès
+        Enseignant</a>
+    <a class="icon" href="javascript:void(0);" onclick="NavB()">
+        <i class="fa fa-bars">≡</i>
+    </a>
+</div>
 
-        <a href="carteDutInfos.html">Carte des DUT Infos</a>
-        <div class="subnav">
-            <button class="subnavbtn">Après l'IUT<i class="fa-fa-caret-down"></i></button>
-            <div class="subnav-content">
-                <a href="debouches.html">Débouchés</a>
-                <a href="poursuiteEtudes.html">Poursuite d'études</a>
-            </div>
-        </div>
-        <a href="temoignage.html">Témoignages</a>
-        <a href="revuPresse.html">Revue de Presse</a>
-        <a href="liens.html">Liens</a>
-        <a href="partenariat.html">Partenariats</a>
-        <a href="entreprises.html">Entreprises</a>
-        <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Accès
-            Enseignant</a>
-        <a href="javascript:void(0);" class="icon" onclick="NavB()">
-            <i class="fa fa-bars">≡</i>
-        </a>
+<div id="texte">
+    <br>
+    <h2>IUT informatique</h2>
+    <br> Les départements d'informatique des IUT de France forment des étudiants à l'informatique et au travail en
+    équipe
+    afin de les insérer dans la vie professionnelle.
+
+    <br>
+    <br> Ils proposent ainsi une formation à taille humaine, encadrée par des professeurs disponibles, ainsi que
+    par des
+    professionnels expérimentés qui apportent aux étudiants une expérience pratique et concrète des métiers de
+    l'informatique.
+
+    <br>
+    <br> L'enseignement en informatique (du DUT ou de la Licence Professionnelle) repose sur 3 axes, chacun d'entre
+    eux requérant
+    des qualités et des compétences spécifiques :
+
+    <br>
+    <br>
+
+    <ul>
+        <li> Analyse et conception :</li>
+    </ul>
+    <div>Travail préliminaire en relation avec le client pour spécifier son besoin et ses attentes et la
+        conception du
+        schéma d'un traitement informatique.
     </div>
 
-    <div id="texte">
-        <br>
-        <h2>IUT informatique</h2>
-        <br> Les départements d'informatique des IUT de France forment des étudiants à l'informatique et au travail en
-        équipe
-        afin de les insérer dans la vie professionnelle.
-
-        <br>
-        <br> Ils proposent ainsi une formation à taille humaine, encadrée par des professeurs disponibles, ainsi que
-        par des
-        professionnels expérimentés qui apportent aux étudiants une expérience pratique et concrète des métiers de
-        l'informatique.
-
-        <br>
-        <br> L'enseignement en informatique (du DUT ou de la Licence Professionnelle) repose sur 3 axes, chacun d'entre
-        eux requérant
-        des qualités et des compétences spécifiques :
-
-        <br>
-        <br>
-
-        <ul>
-            <li> Analyse et conception :</li>
-        </ul>
-        <div>Travail préliminaire en relation avec le client pour spécifier son besoin et ses attentes et la
-            conception du
-            schéma d'un traitement informatique.
-        </div>
-
-        <br>
-        <br>
-        <i>Communication, ouverture d'esprit, capacités d'analyse et de synthèse...</i>
+    <br>
+    <br>
+    <i>Communication, ouverture d'esprit, capacités d'analyse et de synthèse...</i>
 
 
-
-
-        <ul>
-            <li>Algorithmique et programmation : Mise en oeuvre effective du traitement jusqu'au codage.
-                <br>
-                <br>
-
-                <i>Esprit logique, précision technique... </i>
-            </li>
-        </ul>
-
-        <ul>
-            <li>Architecture système et réseaux : Fonctionnement d'un ordinateur, de son système d'exploitation et des
-                réseaux
-                (Internet, Intranet,...).
-                <br>
-                <br> Curiosité, patience ...
-                <br>
-                <br> A ces enseignements ciblés s'ajoutent pour moitié des disciplines d'enseignement général
-                (Mathématiques,
-                Economie et Gestion, Anglais et Communication, ...). Ceci confère à la formation un aspect
-                pluridisciplinaire.
-                <br>
-                <br> En outre, l'évaluation se fait non seulement sur la théorie mais également sur des mises en
-                situation, via
-                des projets tuteurés et un stage en entreprise, permettant de valider les connaissances et compétences
-                acquises
-                lors de la formation.
-            </li>
-        </ul>
-
-    </div>
-    <footer>
-        <div id="Report">
+    <ul>
+        <li>Algorithmique et programmation : Mise en oeuvre effective du traitement jusqu'au codage.
             <br>
-            <p>Pour signaler un problème ou faire des remarques et suggestions sur ce site : <a
-                    href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
-        </div>
-    </footer>
+            <br>
+
+            <i>Esprit logique, précision technique... </i>
+        </li>
+    </ul>
+
+    <ul>
+        <li>Architecture système et réseaux : Fonctionnement d'un ordinateur, de son système d'exploitation et des
+            réseaux
+            (Internet, Intranet,...).
+            <br>
+            <br> Curiosité, patience ...
+            <br>
+            <br> A ces enseignements ciblés s'ajoutent pour moitié des disciplines d'enseignement général
+            (Mathématiques,
+            Economie et Gestion, Anglais et Communication, ...). Ceci confère à la formation un aspect
+            pluridisciplinaire.
+            <br>
+            <br> En outre, l'évaluation se fait non seulement sur la théorie mais également sur des mises en
+            situation, via
+            des projets tuteurés et un stage en entreprise, permettant de valider les connaissances et compétences
+            acquises
+            lors de la formation.
+        </li>
+    </ul>
+</div>
+
+<footer>
+    <div id="Report">
+        <br>
+        <p>Pour signaler un problème ou faire des remarques et suggestions sur ce site : <a
+                href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
+    </div>
+</footer>
+
+<script src="../js/scroll.js"></script>
+
 </body>
 
 </html>

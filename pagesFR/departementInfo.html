@@ -3,127 +3,133 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
-    <link href="icone-ordinateur.png" rel="icon" type="image/png">
+    <link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <title>Portail National IUT Informatique</title>
-    <script src="test.js"></script>
-
 </head>
 
 <body>
-    <button onclick="topFunction()" id="topbtn" title="Retour en Haut">↑</button>
+<button id="topbtn" onclick="topFunction()" title="Retour en Haut">↑</button>
 
-    <img id="logo" src="../images/logo.png" alt="logoIUT" usemap="#logo">
-    <map name="logo">
-        <area shape="rect" alt="logo" coords="0,0,435,133" href="../pagesFR/accueil.html">
+<img alt="logoIUT" id="logo" src="../images/logo.png" usemap="#logo">
 
-    </map>
+<map name="logoIUT">
+    <area alt="logo" coords="0,0,435,133" href="../pagesFR/accueil.html" shape="rect">
+</map>
 
-    <div id="head">
-        <div id="searchbar">
-            <form action="" class="formulaire">
-                <input class="champ" type="text" placeholder="Rechercher : " />
-                <input class="bouton" type="button" value="🔍" />
-            </form>
+<div id="head">
+    <div id="searchbar">
+        <form action="" class="formulaire">
+            <label>
+                <input class="champ" placeholder="Rechercher" type="text"/>
+            </label>
+            <label>
+                <input class="bouton" type="button" value="🔍"/>
+            </label>
+        </form>
+    </div>
+</div>
+
+<div class="topnav" id="myTopnav">
+    <a href="accueil.html">Accueil</a>
+    <a href="presentation.html">Présentation</a>
+    <div class="subnav">
+        <button class="subnavbtn">Formation<i class="fa-fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="IUT.html">IUT</a>
+            <a class="active" href="departementInfo.html">Département Infos</a>
+            <a href="programme.html">Programme</a>
         </div>
     </div>
-    <div id="myTopnav" class="topnav">
-        <a href="accueil.html">Accueil</a>
-        <a href="presentation.html">Présentation</a>
-        <div class="subnav">
-            <button class="subnavbtn">Formation<i class="fa-fa-caret-down"></i></button>
-            <div class="subnav-content">
-                <a href="IUT.html">IUT</a>
-                <a href="departementInfo.html" class="active">Département Infos</a>
-                <a href="programme.html">Programme</a>
-            </div>
+    <a href="carteDutInfos.html">Carte des DUT Infos</a>
+    <div class="subnav">
+        <button class="subnavbtn">Après l'IUT<i class="fa-fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="debouches.html">Débouchés</a>
+            <a href="poursuiteEtudes.html">Poursuite d'études</a>
         </div>
-        <a href="carteDutInfos.html">Carte des DUT Infos</a>
-        <div class="subnav">
-            <button class="subnavbtn">Après l'IUT<i class="fa-fa-caret-down"></i></button>
-            <div class="subnav-content">
-                <a href="debouches.html">Débouchés</a>
-                <a href="poursuiteEtudes.html">Poursuite d'études</a>
-            </div>
-        </div>
-        <a href="temoignage.html">Témoignages</a>
-        <a href="revuPresse.html">Revue de Presse</a>
-        <a href="liens.html">Liens</a>
-        <a href="partenariat.html">Partenariats</a>
-        <a href="entreprises.html">Entreprises</a>
-        <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Accès
-            Enseignant</a>
-        <a href="javascript:void(0);" class="icon" onclick="NavB()">
-            <i class="fa fa-bars">≡</i>
-        </a>
     </div>
+    <a href="temoignage.html">Témoignages</a>
+    <a href="revuPresse.html">Revue de Presse</a>
+    <a href="liens.html">Liens</a>
+    <a href="partenariat.html">Partenariats</a>
+    <a href="entreprises.html">Entreprises</a>
+    <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Accès
+        Enseignant</a>
+    <a class="icon" href="javascript:void(0);" onclick="NavB()">
+        <i class="fa fa-bars">≡</i>
+    </a>
+</div>
 
-
-    <script>
-        window.onscroll = function () { scrollFunction() };
-        document.getElementById("myBtn").onclick = function () { myFunction() };
-    </script>
-    </div>
-    <div id="texte">
+<div id="texte">
+    <br>
+    <h2>Les départements informatique à l'IUT</h2>
+    <br>
+    <img alt="iut info" id="damien" src="../images/iutinfo.gif">
+    <div>L'enseignement de l'informatique à l'IUT fait une large part à la dimension professionnelle tout en
+        conservant des
+        composantes fondamentales; l'étudiant acquiert ainsi des savoir-faires mais également des connaissances,
+        des
+        concepts de base et des méthodes de travail qu'il sera à même de mettre à profit en situation
+        professionnelle.
         <br>
-        <h2>Les départements informatique à l'IUT</h2>
         <br>
-        <img id="damien" src="../images/iutinfo.gif">
-        <div>L'enseignement de l'informatique à l'IUT fait une large part à la dimension professionnelle tout en
-            conservant des
-            composantes fondamentales; l'étudiant acquiert ainsi des savoir-faires mais également des connaissances,
-            des
-            concepts de base et des méthodes de travail qu'il sera à même de mettre à profit en situation
-            professionnelle.
-            <br>
-            <br>
-            <b>Le DUT, diplôme universitaire et professionnel (niveau L2 du schéma LMD, 120 crédits européens):</b>
-            <br>
-            <br>
-            Les titulaires du DUT en informatique sont des techniciens supérieurs, capables de participer à la
-            conception,
-            la réalisation et la mise en oeuvre de systèmes informatiques. Ils peuvent cependant s'ils le désirent
-            poursuivre
-            leurs études à l'issue de ce diplôme.
-            <br>
-            <br>
-            <p><b>La Licence Professionnelle «Systèmes Informatiques et Logiciels» (SIL), diplôme de niveau L3 dans le
-                    schéma LMD (grade de Licence, 180 crédits européens): <a
-                        href="http://www.iut-informatique.fr/LicencesProfessionnelles/">ces
-                        pages présentent les licenses professionnelles</a> proposées dans les départements
-                    informatiques d'iut.
-                </b>
-            </p>
-            Les titulaires de la licence SIL sont des spécialistes capables de participer à un projet de
-            développement logiciel
-            et, à terme, d'en prendre la complète responsabilité.
-            <br>
-            <br>
-            <b>La validation des acquis :</b>
-            <br>
-            <br>
-            Il est également possible de faire reconnaître son expérience (professionnelle ou non) afin d'obtenir
-            un diplôme,
-            un titre ou un certificat de qualification professionnelle. Vous pouvez visiter le site du gouvernement
-            concernant
-            <a id="vae"
-                href="https://travail-emploi.gouv.fr/formation-professionnelle/evoluer-professionnellement/vae">validation
-                des acquis de l'expérience (VAE).</a>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
+        <b>Le DUT, diplôme universitaire et professionnel (niveau L2 du schéma LMD, 120 crédits européens):</b>
+        <br>
+        <br>
+        Les titulaires du DUT en informatique sont des techniciens supérieurs, capables de participer à la
+        conception,
+        la réalisation et la mise en oeuvre de systèmes informatiques. Ils peuvent cependant s'ils le désirent
+        poursuivre
+        leurs études à l'issue de ce diplôme.
+        <br>
+        <br>
+        <p><b>La Licence Professionnelle «Systèmes Informatiques et Logiciels» (SIL), diplôme de niveau L3 dans le
+            schéma LMD (grade de Licence, 180 crédits européens): <a
+                    href="http://www.iut-informatique.fr/LicencesProfessionnelles/">ces
+                pages présentent les licenses professionnelles</a> proposées dans les départements
+            informatiques d'iut.
+        </b>
+        </p>
+        Les titulaires de la licence SIL sont des spécialistes capables de participer à un projet de
+        développement logiciel
+        et, à terme, d'en prendre la complète responsabilité.
+        <br>
+        <br>
+        <b>La validation des acquis :</b>
+        <br>
+        <br>
+        Il est également possible de faire reconnaître son expérience (professionnelle ou non) afin d'obtenir
+        un diplôme,
+        un titre ou un certificat de qualification professionnelle. Vous pouvez visiter le site du gouvernement
+        concernant
+        <a href="https://travail-emploi.gouv.fr/formation-professionnelle/evoluer-professionnellement/vae"
+           id="vae">validation
+            des acquis de l'expérience (VAE).</a>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
+</div>
 
-    <footer>
-        <div id="Report">
-            <br>
-            <p>Pour signaler un problème ou faire des remarques et suggestions sur ce site : <a
-                    href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
-        </div>
-    </footer>
+<footer>
+    <div id="Report">
+        <br>
+        <p>Pour signaler un problème ou faire des remarques et suggestions sur ce site : <a
+                href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
+    </div>
+</footer>
+
+<script src="../js/scroll.js"></script>
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+    document.getElementById("myBtn").onclick = function () {
+        myFunction()
+    };
+</script>
 
 </body>
 

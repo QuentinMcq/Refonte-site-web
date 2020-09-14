@@ -3,94 +3,101 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
-    <link href="icone-ordinateur.png" rel="icon" type="image/png">
+    <link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <title>IUT Informatique National Portal</title>
-    <script src="test.js"></script>
 </head>
 
 <body>
-    <button onclick="topFunction()" id="topbtn" title="Retour en Haut">↑</button>
+<button id="topbtn" onclick="topFunction()" title="Retour en Haut">↑</button>
 
-    <img id="logo" src="../images/logo.png" alt="logoIUT" usemap="#logo">
-    <map name="logo">
-        <area shape="rect"  alt="logo" coords="0,0,435,133" href="../pagesEN/accueil.html">
-    </map>
+<img alt="logoIUT" id="logo" src="../images/logo.png" usemap="#logo">
 
-    <div id="head">
-        <div id="searchbar">
-            <form action="" class="formulaire">
-                <input class="champ" type="text" placeholder="Rechercher : " />
-                <input class="bouton" type="button" value="🔍" />
-            </form>
+<map name="logoIUT">
+    <area alt="logo" coords="0,0,435,133" href="../pagesEN/accueil.html" shape="rect">
+</map>
+
+<div id="head">
+    <div id="searchbar">
+        <form action="" class="formulaire">
+            <label>
+                <input class="champ" placeholder="Rechercher" type="text"/>
+            </label>
+            <label>
+                <input class="bouton" type="button" value="🔍"/>
+            </label>
+        </form>
+    </div>
+</div>
+
+<div class="topnav" id="myTopnav">
+    <a href="accueil.html">Home</a>
+    <a href="presentation.html">Presentation</a>
+    <div class="subnav">
+        <button class="subnavbtn active">Training<i class="fa-fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="IUT.html">IUT</a>
+            <a href="departementInfo.html">Infos Department</a>
+            <a class="active" href="programme.html">Program</a>
         </div>
     </div>
-    <div id="myTopnav" class="topnav">
-        <a href="accueil.html">Home</a>
-        <a href="presentation.html">Presentation</a>
-        <div class="subnav">
-            <button class="subnavbtn" class="active">Training<i class="fa-fa-caret-down"></i></button>
-            <div class="subnav-content">
-                <a href="IUT.html">IUT</a>
-                <a href="departementInfo.html">Infos Department</a>
-                <a href="programme.html" class="active">Program</a>
-            </div>
+    <a href="carteDutInfos.html">Map of DUT Info</a>
+    <div class="subnav">
+        <button class="subnavbtn">After IUT<i class="fa-fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="debouches.html">Opportunities</a>
+            <a href="poursuiteEtudes.html">Study pursuits</a>
         </div>
-        <a href="carteDutInfos.html">Map of DUT Info</a>
-        <div class="subnav">
-            <button class="subnavbtn">After IUT<i class="fa-fa-caret-down"></i></button>
-            <div class="subnav-content">
-                <a href="debouches.html">Opportunities</a>
-                <a href="poursuiteEtudes.html">Study pursuits</a>
-            </div>
-        </div>
-        <a href="temoignage.html">Testimonials</a>
-        <a href="revuPresse.html">Press reviews</a>
-        <a href="liens.html">Links</a>
-        <a href="partenariat.html">Partnerships</a>
-        <a href="entreprises.html">Companies</a>
-        <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Teacher
-            access</a>
-        <a href="javascript:void(0);" class="icon" onclick="NavB()">
-            <i class="fa fa-bars">≡</i>
-        </a>
     </div>
+    <a href="temoignage.html">Testimonials</a>
+    <a href="revuPresse.html">Press reviews</a>
+    <a href="liens.html">Links</a>
+    <a href="partenariat.html">Partnerships</a>
+    <a href="entreprises.html">Companies</a>
+    <a href="http://www.iut-informatique.fr/Intranet/dokuwiki/authINTRANETACDI.php?action=doku.php?id=accueil">Teacher
+        access</a>
+    <a class="icon" href="javascript:void(0);" onclick="NavB()">
+        <i class="fa fa-bars">≡</i>
+    </a>
+</div>
 
+<div id="texte" style="text-align: center">
+    <br>
+    <h2> The official DUT program </h2>
+    <br>
+    <br>
+    <img alt="logoFr" src="../images/fr.png">
+    <br>
+    <br>
+    <h2> The results of post dut computer surveys </h2>
+    <br>
+    <br>
+    <b> Surveys: </b>
+    <a href="../documents/enquetes/enquete1999.ppt">1999 |</a>
+    <a href="../documents/enquetes/enquete2000.ppt">2000 |</a>
+    <a href="../documents/enquetes/enquete2001.ppt">2001 |</a>
+    <a href="../documents/enquetes/enquete2002.ppt">2002 |</a>
+    <a href="../documents/enquetes/enquete2003.ppt">2003 |</a>
+</div>
 
-    <script>
-        window.onscroll = function () { scrollFunction() };
-        document.getElementById("myBtn").onclick = function () { myFunction() };
-    </script>
-
-
-    <div id="texte">
+<footer>
+    <div id="Report">
         <br>
-        <h2> The official DUT program </h2>
-        <b> computer science DUT </b>
-        <br>
-        <br>
-        <img src="../images/fr.png" alt="logoFr">
-        <br>
-        <br>
-        <h2> The results of post dut computer surveys </h2>
-        <br>
-        <br>
-        <b> Post DUT Surveys: </b>
-                <a href="../documents/enquete1999.ppt">1999 |</a>
-                <a href="../documents/enquete2000.ppt">2000 |</a>
-                <a href="../documents/enquete2001.ppt">2001 |</a>
-                <a href="../documents/enquete2002.ppt">2002 |</a>
-                <a href="../documents/enquete2003.ppt">2003 |</a>
+        <p>To report a problem or make comments and suggestions on this site: <a
+                href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
     </div>
+</footer>
 
-    <footer>
-        <div id="Report">
-            <br>
-            <p>To report a problem or make comments and suggestions on this site: <a
-                    href="webmaster@iut-informatique.fr">webmaster@iut-informatique.fr</a></p>
-        </div>
-    </footer>
+<script src="../js/scroll.js"></script>
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+    document.getElementById("myBtn").onclick = function () {
+        myFunction()
+    };
+</script>
+
 </body>
 
 </html>
