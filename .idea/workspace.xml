@@ -20,72 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee85838-0c49-4948-83c5-184795b7751d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/enquete1999.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/documents/enquetes/enquete1999.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/enquete2000.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/documents/enquetes/enquete2000.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/enquete2001.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/documents/enquetes/enquete2001.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/enquete2002.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/documents/enquetes/enquete2002.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/enquete2003.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/documents/enquetes/enquete2003.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/03_APompadourBoldSample.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/font/03_APompadourBoldSample.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/steelfish rg.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/font/steelfish rg.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/categorie.png.xmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery/jQuery-rwdImageMaps-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery/jQuery-rwdImageMaps-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery/jQuery-rwdImageMaps-master/jquery.rwdImageMaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jQuery/jquery.rwdImageMaps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jQuery/jQuery-rwdImageMaps-master/jquery.rwdImageMaps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langues/de.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/documents/langues/de.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langues/es.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/documents/langues/es.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langues/fr.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/documents/langues/fr.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/IUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/IUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jQuery/jquery.rwdImageMaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jQuery/jquery.rwdImageMaps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesEN/accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/accueil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/carteDutInfos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/carteDutInfos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/debouches.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/debouches.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/departementInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/departementInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/entreprises.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/entreprises.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesEN/liens.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/liens.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesEN/partenariat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/partenariat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/poursuiteEtudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/poursuiteEtudes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesEN/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/presentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/programme.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/programme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesEN/revuPresse.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/revuPresse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesEN/temoignage.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesEN/temoignage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesEN/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/IUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/IUT.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/accueil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/carteDutInfos.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/carteDutInfos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/debouches.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/debouches.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/departementInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/departementInfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesFR/entreprises.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/entreprises.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/liens.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/liens.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/partenariat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/partenariat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/poursuiteEtudes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/poursuiteEtudes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagesFR/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/presentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/programme.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/programme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/revuPresse.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/revuPresse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/temoignage.html" beforeDir="false" afterPath="$PROJECT_DIR$/pagesFR/temoignage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagesFR/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/police/steelfish rg.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/police/steelfish rg.ttf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jQuery" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -129,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600081805936</updated>
-      <workItem from="1600081807348" duration="5085000" />
+      <workItem from="1600081807348" duration="6032000" />
     </task>
     <servers />
   </component>

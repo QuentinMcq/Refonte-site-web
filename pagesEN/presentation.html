@@ -31,11 +31,11 @@
 
 <div class="topnav" id="myTopnav">
     <a href="accueil.html">Home</a>
-    <a href="presentation.html">Presentation</a>
+    <a class="active" href="presentation.html">Presentation</a>
     <div class="subnav">
         <button class="subnavbtn">Training<i class="fa-fa-caret-down"></i></button>
         <div class="subnav-content">
-            <a class="active" href="IUT.html">IUT</a>
+            <a href="IUT.html">IUT</a>
             <a href="departementInfo.html">Infos Department</a>
             <a href="programme.html">Program</a>
         </div>
@@ -137,6 +137,14 @@
 </footer>
 
 <script src="../js/scroll.js"></script>
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+    document.getElementById("myBtn").onclick = function () {
+        myFunction()
+    };
+</script>
 
 </body>
 
